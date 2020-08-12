@@ -20,7 +20,6 @@ use Plugins\Candy;
 
 ///@hook:CInlineAction::runWithParams
 ///@hook:CApplication::run CWebApplication::processRequest
-///protected\controllers\SiteController::actionIndex protected\controllers\SiteController::actionLogin
 class CommonPlugin extends Candy
 {
     public function onBefore(){
