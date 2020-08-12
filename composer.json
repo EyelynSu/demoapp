@@ -1,0 +1,13 @@
+{   
+    "autoload": {
+        "psr-4": {
+            "Plugins\\": "Plugins/"
+        }
+    },
+
+    "require": {
+        "naver/pinpoint-php-aop": "v1.0.1",
+        "php": ">=5.3.2",
+    	"yiisoft/yii": "1.1.*"
+    }
+}
