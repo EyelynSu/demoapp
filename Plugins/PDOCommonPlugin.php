@@ -18,7 +18,7 @@
 
 namespace Plugins;
 use Plugins\Candy;
-use CDbDataReader;
+
 ///@hook:CDbConnection::createCommand
 ///@hook:CDbCommand::query CDbCommand::execute
 class PDOCommonPlugin extends Candy
